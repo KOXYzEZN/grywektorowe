@@ -39,3 +39,4 @@ Gra Tempest to zaawansowana gra, w której musisz przeżyć w tunelu pełny wrog
 ## Kontrolki
 A – poruszanie się w lewo (kierunek przeciwny do wskazówek zegara)<br>
 D – poruszanie się w prawo (kierunek zgodny ze wskazówkami zegara)<br>
+LPM (Lewy przycisk myszy) - strzelanie <br>
