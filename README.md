@@ -24,6 +24,8 @@ S – poruszanie się do tyłu<br>
 A – obrót w lewo<br>
 D – obrót w prawo<br>
 Spacja – strzelanie<br>
+## Zrzuty ekranu
+![zrzutBattlezone](/battlezone/Zrzut_ekranu_2024-02-29_214742.png "Opcjonalny")
 # Tempest
 Gra Tempest to zaawansowana gra, w której musisz przeżyć w tunelu pełny wrogich robaków i muszek. Gracz musi unikać i niszczyć przeciwników poruszając się po trójwymiarowej planszy tunelu.
 ## Opis plików gry
