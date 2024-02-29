@@ -24,8 +24,8 @@ S – poruszanie się do tyłu<br>
 A – obrót w lewo<br>
 D – obrót w prawo<br>
 Spacja – strzelanie<br>
-# Robaczki w tunelu
-Gra Robaczki w tunelu to zaawansowana gra, w której musisz przeżyć w tunelu pełny wrogich robaków i muszek. Gracz musi unikać i niszczyć przeciwników poruszając się po trójwymiarowej planszy tunelu.
+# Tempest
+Gra Tempest to zaawansowana gra, w której musisz przeżyć w tunelu pełny wrogich robaków i muszek. Gracz musi unikać i niszczyć przeciwników poruszając się po trójwymiarowej planszy tunelu.
 ## Opis plików gry
 Plansza.js – rysuje plansze po której się on porusza
 Muszka.js – plik zawierający wszystkie funkcje dotyczące przeciwnika (Muszki)
