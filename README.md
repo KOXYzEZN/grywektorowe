@@ -20,6 +20,8 @@ D – obrót statku w prawą stronę (zgodnie ze wskazówkami zegara)<br>
 LPM (Lewy przycisk myszy) – strzelanie<br>
 # Tempest
 Gra Tempest to zaawansowana gra, w której musisz przeżyć w tunelu pełnym wrogich robaków i muszek. Gracz musi unikać i niszczyć przeciwników poruszając się po trójwymiarowej planszy tunelu.
+## Zrzuty ekranu
+![zrzutRobaczki](/tempest/Zrzut_Robaczki.png "Tempest - zrzut ekranu")
 ## Opis plików gry
  - Plansza.js – rysuje plansze po której się on porusza<br>
  - Muszka.js – plik zawierający wszystkie funkcje dotyczące przeciwnika (Muszki)<br>
