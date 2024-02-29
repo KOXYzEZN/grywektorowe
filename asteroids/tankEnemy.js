@@ -1,4 +1,4 @@
-//ruchacze
+//flyttemenn
 class TankEnemy {
     constructor({position, velocity}) {
         this.position = position;
