@@ -1,4 +1,4 @@
-# grywektorowe
+# Gry Wektorowe
 Motorola Science Cup 2024, Gry Wektorowe.
 Wszystkie gry można uruchomić za pomocą pliku HTML zawartego z resztą plików.
 
