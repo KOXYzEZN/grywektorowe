@@ -13,13 +13,15 @@ punkZew = [[550, 125],[550, 325],[550, 525],[550, 725],
 // punkWew = [[400, 400], [400, 500], [1400, 500], [1400, 400]];
 var poz1 = new plansza(punkZew, 0, 200, 0.9, true, "blue", srod);
 var player = new gracz(poz1, fps);
-var m1 = new muszka(poz1,0,fps,player)
+var m1 = new muszka(poz1,4,fps,player)
 poz1.rysuj();
 //ctx.beginPath();
 
 // Flag to track if the "W" key is pressed
 var czyA = false;
 var czyD = false;
+var czyM = false;
+var czyP = false;
 
 // Add event listeners for keydown and keyup events
 document.addEventListener("keydown", function (event) {
@@ -46,6 +48,16 @@ document.addEventListener("keyup", function (event) {
     }
 });
 
+document.addEventListener("mousedown", function (event) {
+        czyM = true;
+    
+});
+
+document.addEventListener("mouseup", function (event) {
+    czyM = false;
+    czyP = false
+});
+
 setInterval(update, 1000 / fps);
 var z = 0;
 function update() {
@@ -67,8 +79,14 @@ function update() {
         player.lewo();
     }
 
+    if (czyM && !czyP) {
+        
+        player.strzel();  
+        czyP = true;  
+    }
+
    m1.ruszaj(z)
-   player.strzel()
+   //player.strzel()
 
     poz1.dodajGracza(player.getPos());
 
@@ -96,7 +114,7 @@ function dodajPnktZew(zew) {
         let tempArr = []
 
         tempArr.push(zew[i]);
-        console.log(dzielnik,ileOdc)
+        // console.log(dzielnik,ileOdc)
 
         for (let j = 0; j < dzielnik; j++) {
             const element = array[j];

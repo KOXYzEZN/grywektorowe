@@ -10,8 +10,6 @@ class gracz {
         this.ratio = [1, 1]
         this.pociski = []
         this.fps = fps
-        let p = new pocisk(this.poz,this.pos,this.fps)
-        this.pociski.push(p)
     
         //console.log(this.zew[this.pos][0] / this.zew[this.pos + 1][0], this.zew[this.pos][1] / this.zew[this.pos + 1][1])
     }
@@ -76,8 +74,8 @@ class gracz {
     }
 
     strzel(){
-        // let p = new pocisk(this.poz,this.pos,this.fps)
-        // this.pociski.push(p)
+        let p = new pocisk(this.poz,this.pos,this.fps)
+        this.pociski.push(p)
     }
 
     zmianPoz() {
