@@ -6,6 +6,8 @@ Wszystkie gry można uruchomić za pomocą pliku HTML zawartego z resztą plikó
 Gra Asteroids to gra w której bronisz się przed nadciągającymi wrogami i asteroidami, które są w twojej drodze.  Gra ciągnie się w nieskończoność, aż gracz nie wyjdzie albo nie zrestartuje strony.
 ## Zrzuty ekranu
 ![zrzut1Asteroids](/asteroids/Zrzut1.png "es")
+  
+![zrzut2Asteroids](/asteroids/Zrzut2.png "es")
 ## Opis plików gry
  - Player.js – zawiera funkcje rysowania oraz pobierania kształtów statku gracza<br>
  - Projectiles.js – zawiera funkcje obsługujące pociski gracza, wrogów oraz ich rysowanie i uaktualnienie. Również zawiera klasę Asteroid, która rysuję, uaktualnia, oraz obsługuje kolizje z pociskami gracza, wroga, ale również z innymi asteroidami.<br>
