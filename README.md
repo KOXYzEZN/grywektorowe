@@ -1,2 +1,35 @@
 # grywektorowe
 Motorola Science Cup 2024, Gry Wektorowe.
+Wszystkie gry można uruchomić za pomocą pliku HTML zawartego z resztą plików.
+
+# Asteroids
+Gra Asteroids to gra w której bronisz się przed nadciągającymi wrogami i asteroidami, które są w twojej drodze.  Gra ciągnie się w nieskończoność, aż gracz nie wyjdzie albo nie zrestartuje strony.
+## Opis plików gry
+Player.js – zawiera funkcje rysowania oraz pobierania kształtów statku gracza
+Projectiles.js – zawiera funkcje obsługujące pociski gracza, wrogów oraz ich rysowanie i uaktualnienie. Również zawiera klasę Asteroid, która rysuję, uaktualnia, oraz obsługuje kolizje z pociskami gracza, wroga, ale również z innymi asteroidami.
+collisionDetectors.js – tam znajdują się wszystkie funkcje związane z kolizjami
+enemy.js – obsługuje funkcje rysowania, strzelania, obracania i dashowania przeciwnika podstawowego.
+## Obsługa gry
+W – poruszanie się do przodu <br>
+A – obrót statku w lewą stronę (przeciwnie do ruchu wskazówek zegara) <br>
+D – obrót statku w prawą stronę (zgodnie ze wskazówkami zegara)<br>
+LPM (Lewy przycisk myszy) – strzelanie<br>
+# Battlezone
+Gra Battlezone polega na destrukcji wrogich czołgów, za pomocą naszego działa. Gra jest w FPP. Na mapie losowo pojawiają się przeciwnicy, którzy są od razu agresywni dla nas.
+## Opis plików gry
+Battlezone.js – Główny plik, który obsługuje rysowanie krajobrazu, wrogów oraz pocisków i wszystkich funkcji z nimi związanych.
+## Sterowanie działem
+W – poruszanie się do przodu<br>
+S – poruszanie się do tyłu<br>
+A – obrót w lewo<br>
+D – obrót w prawo<br>
+Spacja – strzelanie<br>
+# Robaczki w tunelu
+Gra Robaczki w tunelu to zaawansowana gra, w której musisz przeżyć w tunelu pełny wrogich robaków i muszek. Gracz musi unikać i niszczyć przeciwników poruszając się po trójwymiarowej planszy tunelu.
+## Opis plików gry
+Plansza.js – rysuje plansze po której się on porusza
+Muszka.js – plik zawierający wszystkie funkcje dotyczące przeciwnika (Muszki)
+Gracz.js – zwiera funkcje dotyczące ruchu i rysowania gracza
+## Kontrolki
+A – poruszanie się w lewo (kierunek przeciwny do wskazówek zegara)<br>
+D – poruszanie się w prawo (kierunek zgodny ze wskazówkami zegara)<br>
